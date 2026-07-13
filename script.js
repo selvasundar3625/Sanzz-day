@@ -75,12 +75,12 @@ window.addEventListener('load', () => {
             });
         });
 
-        button.addEventListener('mouseleave', () => {
-            gsap.to(button, {
-                scale: 1,
-                duration: 0.3
-            });
-        });
+        // button.addEventListener('mouseleave', () => {
+        //     gsap.to(button, {
+        //         scale: 1,
+        //         duration: 0.3
+        //     });
+        // });
 
         // Smooth page transition on click
         button.addEventListener('click', () => {
